@@ -1,0 +1,11 @@
+INSERT INTO `SmithPizza`.`Ingredient` (`idIngredient`, `name`) VALUES ('1', 'Bacon');
+INSERT INTO `SmithPizza`.`Ingredient` (`idIngredient`, `name`) VALUES ('2', 'Pepperoni');
+INSERT INTO `SmithPizza`.`Ingredient` (`idIngredient`, `name`) VALUES ('3', 'Red pepper');
+INSERT INTO `SmithPizza`.`Ingredient` (`idIngredient`, `name`) VALUES ('4', 'Green pepper');
+INSERT INTO `SmithPizza`.`Ingredient` (`idIngredient`, `name`) VALUES ('5', 'Spanish chorizo');
+INSERT INTO `SmithPizza`.`Ingredient` (`idIngredient`, `name`) VALUES ('6', 'Mahrooms');
+UPDATE `SmithPizza`.`Ingredient` SET `name` = 'Mushrooms' WHERE (`idIngredient` = '6');
+INSERT INTO `SmithPizza`.`Ingredient` (`idIngredient`, `name`) VALUES ('7', 'Tomato');
+INSERT INTO `SmithPizza`.`Ingredient` (`idIngredient`, `name`) VALUES ('8', 'Cheese');
+INSERT INTO `SmithPizza`.`Ingredient` (`idIngredient`, `name`) VALUES ('9', 'Sausage');
+INSERT INTO `SmithPizza`.`Ingredient` (`idIngredient`, `name`) VALUES ('10', 'Mussels');
